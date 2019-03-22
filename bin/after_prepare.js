@@ -1,9 +1,8 @@
 'use strict';
 
 module.exports = function (context) {
-	var req = context.requireCordovaModule,
-		Q = req('q'),
-		path = req('path'),
+		Q = require('q'),
+		path = require('path'),
 		ET = req('elementtree'),
 		cordova = req('cordova'),
 		cordova_lib = cordova.cordova_lib,

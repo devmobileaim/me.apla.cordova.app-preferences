@@ -12,7 +12,8 @@
     "plist": "~1.0.1",
     "q": "~1.4.1",
     "elementtree": "~0.1.6",
-    "xcode": "~0.8.2"
+    "xcode": "~0.8.2",
+    "path": "0.12.7"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
